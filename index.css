@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh ;
+  background-color: #222831;
+}
+
+form, .container > div {
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+form > div > input {
+  margin-bottom: 30px;
+  height: 35px;
+}
+
+form > div > button {
+  background-color: #222831;
+  color: white;
+  padding: 10px 15px ;
+  border-radius: 5px;
+  border: none;
+}
